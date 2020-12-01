@@ -23,6 +23,7 @@ body{
 .quote p {
   font-style: italic;
   line-height: 1.5em;
+  color: #808080;
 }
 blockquote h3 {
   color: #FF4500;

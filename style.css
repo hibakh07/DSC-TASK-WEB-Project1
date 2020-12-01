@@ -1,0 +1,99 @@
+body{
+  text-align: center;
+}
+/* start section 1 */
+.section1{
+  background-color: #E8E8E8;
+  height:430px;
+  margin-top: 50px;
+
+}
+.quote{
+    background-image: url("img/quote-left.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position:bottom left ;
+    width: 50%;
+    text-align: justify;
+    margin-left:100px;
+    padding-top: 100px;
+    float: left;
+
+}
+.quote p {
+  font-style: italic;
+  line-height: 1.5em;
+}
+blockquote h3 {
+  color: #FF4500;
+}
+blockquote h3:before {
+    content: open-quote;
+    color: #FF4500;
+}
+blockquote h3:after {
+    content: close-quote;
+    color: #FF4500;
+}
+.img{
+  background-image: url("img/computer.jpg") ;
+  background-size: cover;
+  height: 430px;
+  width: 400px;
+  float: left;
+
+}
+.img-min{
+  width: 110px;
+  height:100px;
+  border: 2px solid #fff;
+  margin: 310px 7px 5px 0px;
+}
+/* end section 1 */
+/* start section 2 */
+.section2{
+  margin:100px 200px;
+  height:500px
+}
+.section2 h1{
+  font-size: 50px;
+}
+.post{
+  background-color: #E8E8E8;
+  float: left;
+  text-align: justify;
+  margin: 20px;
+  line-height: 2em;
+  height: 380px;
+  padding: 20px;
+  width: auto;
+}
+.img-p{
+  border-radius: 5px;
+  width :210px;
+  height :150px
+}
+.post p{
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.clear{
+  clear: both;
+}
+.profil{
+  float:left;
+}
+.img-f{
+  border-radius: 50px;
+  width:40px;
+  height:40px
+}
+.far{
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.footer-post{
+  padding: 10px 5px
+}
+/* end section 2 */
